@@ -84,9 +84,9 @@ export default function ListLayoutWithTags({
           </h1>
         </div>
         <div className="flex sm:space-x-24">
-          <div className="hidden h-full max-h-screen min-w-[280px] max-w-[280px] flex-wrap overflow-auto rounded bg-gray-50 pt-5 shadow-md dark:bg-gray-900/70 dark:shadow-gray-800/40 sm:flex">
-            <div className="px-6 py-4">
-              {pathname.startsWith('/blog') ? (
+          {/* <div className="hidden h-full max-h-screen min-w-[280px] max-w-[280px] flex-wrap overflow-auto rounded bg-gray-50 pt-5 shadow-md dark:bg-gray-900/70 dark:shadow-gray-800/40 sm:flex">
+            <div className="px-6 py-4"> */}
+          {/* {pathname.startsWith('/blog') ? (
                 <h3 className="font-bold uppercase text-primary-500">All Posts</h3>
               ) : (
                 <Link
@@ -95,8 +95,8 @@ export default function ListLayoutWithTags({
                 >
                   All Posts
                 </Link>
-              )}
-              <ul>
+              )} */}
+          {/* <ul>
                 {sortedTags.map((t) => {
                   return (
                     <li key={t} className="my-3">
@@ -116,9 +116,9 @@ export default function ListLayoutWithTags({
                     </li>
                   )
                 })}
-              </ul>
-            </div>
-          </div>
+              </ul> */}
+          {/* </div>
+          </div> */}
           <div>
             <ul>
               {displayPosts.map((post) => {
@@ -141,9 +141,9 @@ export default function ListLayoutWithTags({
                               {title}
                             </Link>
                           </h2>
-                          <div className="flex flex-wrap">
+                          {/* <div className="flex flex-wrap">
                             {tags?.map((tag) => <Tag key={tag} text={tag} />)}
-                          </div>
+                          </div> */}
                         </div>
                         <div className="prose max-w-none text-gray-500 dark:text-gray-400">
                           {summary}
