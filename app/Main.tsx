@@ -132,9 +132,7 @@ export default function Home({ posts }) {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 dark:text-white">
-                No-Fuss Interface
-              </h3>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white">No-Fuss Interface</h3>
               <p className="mt-4 text-gray-600 dark:text-gray-300">
                 Designed to be lightweight and fast—no complex setups or account creation required.
               </p>
@@ -223,8 +221,8 @@ export default function Home({ posts }) {
                 Build Better Habits
               </h3>
               <p className="mt-4 text-gray-600 dark:text-gray-300">
-                Creating a "cue-based" habit (opening the extension) is more effective for
-                long-term behavior change than relying on willpower alone.
+                Creating a "cue-based" habit (opening the extension) is more effective for long-term
+                behavior change than relying on willpower alone.
               </p>
             </div>
             <div className="rounded-xl bg-gray-50 p-8 shadow-lg dark:bg-gray-800">
