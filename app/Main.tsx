@@ -1,6 +1,7 @@
 import Link from '@/components/Link'
 import siteMetadata from '@/data/siteMetadata'
 import Image from 'next/image'
+import Gif from '@/data/gif.gif'
 
 export default function Home({ posts }) {
   return (
@@ -354,7 +355,7 @@ export default function Home({ posts }) {
             <div className="relative">
               <div className="aspect-square overflow-hidden rounded-2xl bg-gradient-to-br from-blue-100 to-indigo-100 dark:from-blue-900 dark:to-indigo-900">
                 <Image
-                  src="/data/gif.gif"
+                  src={Gif}
                   alt="Posture Exercise Demo"
                   width={600}
                   height={600}
