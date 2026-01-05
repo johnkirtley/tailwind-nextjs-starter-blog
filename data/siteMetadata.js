@@ -1,9 +1,10 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Random Exercises To Improve Posture',
+  title: 'Posture Booster - Chrome Extension & iOS App',
   author: 'John',
-  headerTitle: 'Random Exercises To Improve Posture',
-  description: 'A tool that generates exercises and stretches to help improve posture',
+  headerTitle: 'Posture Booster',
+  description:
+    'Transform your posture with our Chrome extension and iOS app. Get personalized exercises and stretches designed to improve your posture, reduce pain, and boost your confidence.',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://www.exercisestoimproveposture.com',
