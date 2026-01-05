@@ -22,7 +22,7 @@ export default function Home({ posts }) {
               exercises to help you reset your alignment and reduce tension—one random stretch at a
               time.
             </p>
-            <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+            <div className="mt-10 flex justify-center">
               <Link
                 href="https://chromewebstore.google.com/detail/random-posture-exercises/cpbkmonhcfbgoaediifolmiagbnenich?hl=en"
                 className="group relative inline-flex items-center gap-2 overflow-hidden rounded-full bg-blue-600 px-8 py-4 text-lg font-semibold text-white shadow-2xl transition-all hover:bg-blue-700 hover:shadow-blue-500/50"
@@ -42,20 +42,6 @@ export default function Home({ posts }) {
                     strokeLinejoin="round"
                     strokeWidth={2}
                     d="M13 7l5 5m0 0l-5 5m5-5H6"
-                  />
-                </svg>
-              </Link>
-              <Link
-                href="/blog"
-                className="inline-flex items-center gap-2 rounded-full bg-white px-8 py-4 text-lg font-semibold text-blue-600 shadow-lg ring-2 ring-blue-600 transition-all hover:bg-blue-50 dark:bg-gray-800 dark:text-blue-400 dark:ring-blue-400 dark:hover:bg-gray-700"
-              >
-                Try the Randomizer
-                <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
                   />
                 </svg>
               </Link>
@@ -326,24 +312,10 @@ export default function Home({ posts }) {
             Currently helping thousands of users improve their spinal health via our web tools and
             Chrome extension. Upcoming mobile app for iOS and Android arriving soon.
           </p>
-          <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <Link
-              href="/blog"
-              className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-lg font-semibold text-blue-600 shadow-lg ring-2 ring-blue-600 transition-all hover:bg-blue-50 dark:bg-gray-800 dark:text-blue-400 dark:ring-blue-400 dark:hover:bg-gray-700"
-            >
-              Try Random Exercises
-              <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M13 7l5 5m0 0l-5 5m5-5H6"
-                />
-              </svg>
-            </Link>
+          <div className="mt-10 flex justify-center">
             <Link
               href="https://chromewebstore.google.com/detail/random-posture-exercises/cpbkmonhcfbgoaediifolmiagbnenich?hl=en"
-              className="inline-flex items-center gap-2 rounded-full bg-blue-600 px-6 py-3 text-lg font-semibold text-white shadow-lg transition-all hover:bg-blue-700 hover:shadow-xl"
+              className="inline-flex items-center gap-2 rounded-full bg-blue-600 px-8 py-4 text-lg font-semibold text-white shadow-lg transition-all hover:bg-blue-700 hover:shadow-xl"
             >
               <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M12 0C8.21 0 4.831 1.757 2.632 4.501l3.953 6.848A5.454 5.454 0 0 1 12 6.545h10.691A12 12 0 0 0 12 0zM1.931 5.47A11.943 11.943 0 0 0 0 12c0 6.012 4.42 10.991 10.189 11.864l3.953-6.847a5.45 5.45 0 0 1-6.865-2.29zm13.342 2.166a5.446 5.446 0 0 1 1.45 7.09l.002.001h-.002l-5.344 9.257c.206.01.413.016.621.016 6.627 0 12-5.373 12-12 0-1.54-.29-3.011-.818-4.364zM12 16.364a4.364 4.364 0 1 1 0-8.728 4.364 4.364 0 0 1 0 8.728z" />
