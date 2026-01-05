@@ -1,9 +1,10 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Random Exercises To Improve Posture',
+  title: 'Random Exercises To Improve Posture - Chrome Extension',
   author: 'John',
-  headerTitle: 'Random Exercises To Improve Posture',
-  description: 'A tool that generates exercises and stretches to help improve posture',
+  headerTitle: 'Random Posture Exercises',
+  description:
+    'Get random posture exercises and stretches right in your browser. Improve your posture, reduce neck and back pain, and boost your confidence with our free Chrome extension.',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://www.exercisestoimproveposture.com',
