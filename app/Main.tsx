@@ -20,7 +20,7 @@ export default function Home({ posts }) {
             <p className="mx-auto mt-6 max-w-2xl text-xl text-gray-600 dark:text-gray-300">
               {siteMetadata.description}
             </p>
-            <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+            <div className="mt-10 flex flex-col items-center justify-center gap-4">
               <Link
                 href="https://chromewebstore.google.com/detail/random-posture-exercises/cpbkmonhcfbgoaediifolmiagbnenich?hl=en"
                 className="group relative inline-flex items-center gap-2 overflow-hidden rounded-full bg-blue-600 px-8 py-4 text-lg font-semibold text-white shadow-2xl transition-all hover:bg-blue-700 hover:shadow-blue-500/50"
@@ -28,7 +28,7 @@ export default function Home({ posts }) {
                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 0C8.21 0 4.831 1.757 2.632 4.501l3.953 6.848A5.454 5.454 0 0 1 12 6.545h10.691A12 12 0 0 0 12 0zM1.931 5.47A11.943 11.943 0 0 0 0 12c0 6.012 4.42 10.991 10.189 11.864l3.953-6.847a5.45 5.45 0 0 1-6.865-2.29zm13.342 2.166a5.446 5.446 0 0 1 1.45 7.09l.002.001h-.002l-5.344 9.257c.206.01.413.016.621.016 6.627 0 12-5.373 12-12 0-1.54-.29-3.011-.818-4.364zM12 16.364a4.364 4.364 0 1 1 0-8.728 4.364 4.364 0 0 1 0 8.728z" />
                 </svg>
-                Add to Chrome
+                Add to Chrome - It's Free
                 <svg
                   className="h-5 w-5 transition-transform group-hover:translate-x-1"
                   fill="none"
@@ -43,198 +43,26 @@ export default function Home({ posts }) {
                   />
                 </svg>
               </Link>
-              <Link
-                href="https://apps.apple.com/us/app/posture-booster/id6676999993"
-                className="group inline-flex items-center gap-2 rounded-full border-2 border-gray-900 bg-gray-900 px-8 py-4 text-lg font-semibold text-white transition-all hover:bg-transparent hover:text-gray-900 dark:border-white dark:bg-white dark:text-gray-900 dark:hover:bg-transparent dark:hover:text-white"
-              >
-                <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z" />
-                </svg>
-                Download for iOS
-                <svg
-                  className="h-5 w-5 transition-transform group-hover:translate-x-1"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M13 7l5 5m0 0l-5 5m5-5H6"
-                  />
-                </svg>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Product Showcase Section */}
-      <section className="bg-white py-20 dark:bg-gray-900">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-              Choose Your Platform
-            </h2>
-            <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
-              Get posture exercises wherever you work
-            </p>
-          </div>
-
-          <div className="mt-16 grid gap-8 lg:grid-cols-2">
-            {/* Chrome Extension Card */}
-            <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-blue-500 to-indigo-600 p-8 shadow-2xl transition-all hover:scale-105">
-              <div className="relative z-10">
-                <div className="flex items-center gap-4">
-                  <div className="rounded-xl bg-white p-3">
-                    <svg className="h-8 w-8 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M12 0C8.21 0 4.831 1.757 2.632 4.501l3.953 6.848A5.454 5.454 0 0 1 12 6.545h10.691A12 12 0 0 0 12 0zM1.931 5.47A11.943 11.943 0 0 0 0 12c0 6.012 4.42 10.991 10.189 11.864l3.953-6.847a5.45 5.45 0 0 1-6.865-2.29zm13.342 2.166a5.446 5.446 0 0 1 1.45 7.09l.002.001h-.002l-5.344 9.257c.206.01.413.016.621.016 6.627 0 12-5.373 12-12 0-1.54-.29-3.011-.818-4.364zM12 16.364a4.364 4.364 0 1 1 0-8.728 4.364 4.364 0 0 1 0 8.728z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="text-2xl font-bold text-white">Chrome Extension</h3>
-                    <p className="text-blue-100">For desktop users</p>
-                  </div>
-                </div>
-                <p className="mt-6 text-lg text-white">
-                  Get random posture exercises and stretches right in your browser while you work.
-                  Perfect for office workers and remote professionals.
-                </p>
-                <ul className="mt-6 space-y-3 text-white">
-                  <li className="flex items-center gap-3">
-                    <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
-                      <path
-                        fillRule="evenodd"
-                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                    Random exercise generator
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
-                      <path
-                        fillRule="evenodd"
-                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                    Quick access from browser toolbar
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
-                      <path
-                        fillRule="evenodd"
-                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                    No signup required
-                  </li>
-                </ul>
-                <Link
-                  href="https://chromewebstore.google.com/detail/random-posture-exercises/cpbkmonhcfbgoaediifolmiagbnenich?hl=en"
-                  className="mt-8 inline-flex items-center gap-2 rounded-lg bg-white px-6 py-3 font-semibold text-blue-600 shadow-lg transition-all hover:bg-gray-100"
-                >
-                  Add to Chrome
-                  <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M13 7l5 5m0 0l-5 5m5-5H6"
-                    />
-                  </svg>
-                </Link>
-              </div>
-            </div>
-
-            {/* iOS App Card */}
-            <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-gray-900 to-gray-700 p-8 shadow-2xl transition-all hover:scale-105 dark:from-gray-800 dark:to-gray-600">
-              <div className="relative z-10">
-                <div className="flex items-center gap-4">
-                  <div className="rounded-xl bg-white p-3">
-                    <svg className="h-8 w-8 text-gray-900" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="text-2xl font-bold text-white">iOS App</h3>
-                    <p className="text-gray-300">For iPhone users</p>
-                  </div>
-                </div>
-                <p className="mt-6 text-lg text-white">
-                  Take your posture exercises on the go with our dedicated iOS app. Perfect for
-                  breaks, travel, or anywhere you need a quick stretch.
-                </p>
-                <ul className="mt-6 space-y-3 text-white">
-                  <li className="flex items-center gap-3">
-                    <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
-                      <path
-                        fillRule="evenodd"
-                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                    Native iOS experience
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
-                      <path
-                        fillRule="evenodd"
-                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                    Optimized for mobile devices
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
-                      <path
-                        fillRule="evenodd"
-                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                    Works offline
-                  </li>
-                </ul>
-                <Link
-                  href="https://apps.apple.com/us/app/posture-booster/id6676999993"
-                  className="mt-8 inline-flex items-center gap-2 rounded-lg bg-white px-6 py-3 font-semibold text-gray-900 shadow-lg transition-all hover:bg-gray-100"
-                >
-                  Download for iOS
-                  <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M13 7l5 5m0 0l-5 5m5-5H6"
-                    />
-                  </svg>
-                </Link>
-              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* Features Section */}
-      <section className="bg-gray-50 py-20 dark:bg-gray-800">
+      <section className="bg-white py-20 dark:bg-gray-900">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-              Why Choose Posture Booster?
+              Why Choose This Extension?
             </h2>
             <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
-              Everything you need to improve your posture and reduce pain
+              Everything you need to improve your posture while you work
             </p>
           </div>
 
           <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {/* Feature 1 */}
-            <div className="rounded-xl bg-white p-8 shadow-lg transition-all hover:shadow-xl dark:bg-gray-900">
+            <div className="rounded-xl bg-white p-8 shadow-lg transition-all hover:shadow-xl dark:bg-gray-800">
               <div className="inline-flex rounded-lg bg-blue-100 p-3 dark:bg-blue-900">
                 <svg
                   className="h-8 w-8 text-blue-600 dark:text-blue-400"
@@ -260,7 +88,7 @@ export default function Home({ posts }) {
             </div>
 
             {/* Feature 2 */}
-            <div className="rounded-xl bg-white p-8 shadow-lg transition-all hover:shadow-xl dark:bg-gray-900">
+            <div className="rounded-xl bg-white p-8 shadow-lg transition-all hover:shadow-xl dark:bg-gray-800">
               <div className="inline-flex rounded-lg bg-indigo-100 p-3 dark:bg-indigo-900">
                 <svg
                   className="h-8 w-8 text-indigo-600 dark:text-indigo-400"
@@ -286,7 +114,7 @@ export default function Home({ posts }) {
             </div>
 
             {/* Feature 3 */}
-            <div className="rounded-xl bg-white p-8 shadow-lg transition-all hover:shadow-xl dark:bg-gray-900">
+            <div className="rounded-xl bg-white p-8 shadow-lg transition-all hover:shadow-xl dark:bg-gray-800">
               <div className="inline-flex rounded-lg bg-purple-100 p-3 dark:bg-purple-900">
                 <svg
                   className="h-8 w-8 text-purple-600 dark:text-purple-400"
@@ -312,7 +140,7 @@ export default function Home({ posts }) {
             </div>
 
             {/* Feature 4 */}
-            <div className="rounded-xl bg-white p-8 shadow-lg transition-all hover:shadow-xl dark:bg-gray-900">
+            <div className="rounded-xl bg-white p-8 shadow-lg transition-all hover:shadow-xl dark:bg-gray-800">
               <div className="inline-flex rounded-lg bg-green-100 p-3 dark:bg-green-900">
                 <svg
                   className="h-8 w-8 text-green-600 dark:text-green-400"
@@ -329,16 +157,16 @@ export default function Home({ posts }) {
                 </svg>
               </div>
               <h3 className="mt-6 text-xl font-semibold text-gray-900 dark:text-white">
-                No Time Wasted
+                Instant Access
               </h3>
               <p className="mt-3 text-gray-600 dark:text-gray-300">
-                Launch instantly from your browser or phone. No accounts, no setup, no hassle. Just
-                instant access to exercises.
+                Launch instantly from your browser toolbar. No accounts, no setup, no hassle. Just
+                one click to better posture.
               </p>
             </div>
 
             {/* Feature 5 */}
-            <div className="rounded-xl bg-white p-8 shadow-lg transition-all hover:shadow-xl dark:bg-gray-900">
+            <div className="rounded-xl bg-white p-8 shadow-lg transition-all hover:shadow-xl dark:bg-gray-800">
               <div className="inline-flex rounded-lg bg-pink-100 p-3 dark:bg-pink-900">
                 <svg
                   className="h-8 w-8 text-pink-600 dark:text-pink-400"
@@ -364,7 +192,7 @@ export default function Home({ posts }) {
             </div>
 
             {/* Feature 6 */}
-            <div className="rounded-xl bg-white p-8 shadow-lg transition-all hover:shadow-xl dark:bg-gray-900">
+            <div className="rounded-xl bg-white p-8 shadow-lg transition-all hover:shadow-xl dark:bg-gray-800">
               <div className="inline-flex rounded-lg bg-orange-100 p-3 dark:bg-orange-900">
                 <svg
                   className="h-8 w-8 text-orange-600 dark:text-orange-400"
@@ -393,7 +221,7 @@ export default function Home({ posts }) {
       </section>
 
       {/* Benefits Section */}
-      <section className="bg-white py-20 dark:bg-gray-900">
+      <section className="bg-gray-50 py-20 dark:bg-gray-800">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div>
@@ -568,7 +396,7 @@ export default function Home({ posts }) {
       </section>
 
       {/* Final CTA Section */}
-      <section className="bg-gray-50 py-20 dark:bg-gray-800">
+      <section className="bg-white py-20 dark:bg-gray-900">
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
             Ready to Transform Your Posture?
@@ -577,7 +405,7 @@ export default function Home({ posts }) {
             Join thousands of users who have improved their posture and reduced pain. Get started
             today for free.
           </p>
-          <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+          <div className="mt-10 flex justify-center">
             <Link
               href="https://chromewebstore.google.com/detail/random-posture-exercises/cpbkmonhcfbgoaediifolmiagbnenich?hl=en"
               className="inline-flex items-center gap-2 rounded-full bg-blue-600 px-8 py-4 text-lg font-semibold text-white shadow-lg transition-all hover:bg-blue-700 hover:shadow-xl"
@@ -585,16 +413,7 @@ export default function Home({ posts }) {
               <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M12 0C8.21 0 4.831 1.757 2.632 4.501l3.953 6.848A5.454 5.454 0 0 1 12 6.545h10.691A12 12 0 0 0 12 0zM1.931 5.47A11.943 11.943 0 0 0 0 12c0 6.012 4.42 10.991 10.189 11.864l3.953-6.847a5.45 5.45 0 0 1-6.865-2.29zm13.342 2.166a5.446 5.446 0 0 1 1.45 7.09l.002.001h-.002l-5.344 9.257c.206.01.413.016.621.016 6.627 0 12-5.373 12-12 0-1.54-.29-3.011-.818-4.364zM12 16.364a4.364 4.364 0 1 1 0-8.728 4.364 4.364 0 0 1 0 8.728z" />
               </svg>
-              Add to Chrome
-            </Link>
-            <Link
-              href="https://apps.apple.com/us/app/posture-booster/id6676999993"
-              className="inline-flex items-center gap-2 rounded-full border-2 border-gray-900 bg-transparent px-8 py-4 text-lg font-semibold text-gray-900 transition-all hover:bg-gray-900 hover:text-white dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-gray-900"
-            >
-              <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z" />
-              </svg>
-              Download for iOS
+              Add to Chrome - It's Free
             </Link>
           </div>
         </div>
